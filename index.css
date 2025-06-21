@@ -1,0 +1,62 @@
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+}
+.head{
+    color: yellow;
+}
+.bait{
+    display: flex;
+    text-align: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin-top: 23px;
+    justify-content: center;
+}
+.but{
+    border: none;
+    background: black;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+span{
+    color: yellow;
+}
+body p{
+    line-height: 2;
+}
+body h1{
+    line-height: 1.5;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    background: white;
+    width: 1200px;
+    height: 70px;
+}
+.butt{
+    height: 20px;
+    border: none;
+    gap: 20px;
+    border: none;
+    background: white;
+}
+button:hover{
+    text-decoration: underline;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

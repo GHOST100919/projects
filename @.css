@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(39, 33, 33);
+}
+.container{
+    background: wheat;
+    line-height: 2.5;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
