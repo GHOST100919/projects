@@ -3,7 +3,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     justify-content: center;
@@ -12,7 +11,6 @@ body{
     color: yellow;
 }
 .bait{
-    display: flex;
     text-align: center;
 }
 .list{
@@ -43,15 +41,15 @@ body h1{
     grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     background: white;
-    width: 1200px;
-    height: 70px;
+    width: 70%;
+    margin-left: 200px;
+    padding: 1%;
 }
 .butt{
-    height: 20px;
-    border: none;
-    gap: 20px;
     border: none;
     background: white;
+    width: 50%;
+    padding-left: 50px;
 }
 button:hover{
     text-decoration: underline;
