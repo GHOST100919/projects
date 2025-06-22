@@ -1,7 +1,5 @@
 body{
     background: black;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -42,14 +40,11 @@ body h1{
     margin-top: 20px;
     background: white;
     width: 70%;
-    margin-left: 200px;
-    padding: 1%;
 }
 .butt{
     border: none;
     background: white;
     width: 50%;
-    padding-left: 50px;
 }
 button:hover{
     text-decoration: underline;
@@ -57,4 +52,17 @@ button:hover{
 a{
     color: white;
     text-decoration: none;
+}
+@media (max-width:360px){
+    body{
+        background: black;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .foot{
+        width: 200%;
+        gap: 10px;
+    }
 }

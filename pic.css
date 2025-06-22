@@ -16,9 +16,8 @@ footer{
     grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
     background: white;
-    width: 1200px;
+    width: 10vw;
     height: 70px;
-    margin-left: 70px;
 }
 .butt{
     height: 20px;
@@ -46,4 +45,19 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+
+@media (max-width:360px){
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img{
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    footer{
+        width: 120vw;
+    }
 }
